@@ -6,7 +6,7 @@ RSA in haystack
 Files: encrypt.py output.txt
 ```
 # Solution
-The problem gives us an RSA encryption where the same plaintext has been encrypted using same public exponent and different public key modulii. The public keys and the ciphertexts are given. So, this encryption is susceptible to Håstad's broadcast attack. We notice in `encrypt.py` that `e=37` and there are exactly 37 public key, ciphertext pairs. So, we can easily use the 'Chinese Remainder Theorem' to get `$M^e$` and take the e-th root to get the decrypted message. 
+The problem gives us an RSA encryption where the same plaintext has been encrypted using same public exponent and different public key modulii. The public keys and the ciphertexts are given. So, this encryption is susceptible to Håstad's broadcast attack. We notice in `encrypt.py` that `e=37` and there are exactly 37 public key, ciphertext pairs. So, we can easily use the 'Chinese Remainder Theorem' to get $M^e$ and take the e-th root to get the decrypted message. 
 
 # Code
 ```
