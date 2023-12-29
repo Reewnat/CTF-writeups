@@ -6,7 +6,7 @@ Can you find the flag among the noise? (a lone X is unknown)
 Files: text.txt audio.wave
 ```
 # Solution
-The audio file through a spectrogram reveals the text "ENIGMA M_THREE C IV X A VI X A III X A NITEALMOSTTHERE ERUVKJAAWNRZXYV PLUG ZABDHEOP". So, we understand that text is encrypted using an enigma machine with the given settings and we need to find the 'X' values i.e the initial rotor positions. We bruteforce the initial position and decrypt the text. The flag can be searched inside the text.
+The audio file through a spectrogram reveals the text "ENIGMA M_THREE C IV X A VI X A III X A NITEALMOSTTHERE ERUVKJAAWNRZXYV PLUG ZABDHEOP". So, we understand that the text is encrypted using an enigma machine with the given settings and we need to find the 'X' values i.e. the initial rotor positions. We bruteforce the initial positions and decrypt the text. The flag can be searched inside the decrypted text.
 
 # Code
 ```
